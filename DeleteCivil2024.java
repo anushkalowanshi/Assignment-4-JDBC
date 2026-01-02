@@ -11,7 +11,7 @@ public class DeleteCivil2024 {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/college",
                     "root",
-                    "root"
+                    "Root@123"
             );
 
             String delete =
@@ -28,3 +28,4 @@ public class DeleteCivil2024 {
         }
     }
 }
+
