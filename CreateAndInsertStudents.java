@@ -19,7 +19,7 @@ public class CreateAndInsertStudents {
             // Create Table
             String createTable =
                     "CREATE TABLE IF NOT EXISTS Student (" +
-                    "id INT PRIMARY KEY," +
+                    "id INT ," +
                     "name VARCHAR(50)," +
                     "branch VARCHAR(20)," +
                     "semester INT," +
@@ -46,3 +46,4 @@ public class CreateAndInsertStudents {
         }
     }
 }
+
